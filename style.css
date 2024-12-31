@@ -49,6 +49,51 @@ h1{
 
 }
 .propic{
-    border-radius: 16px;
+    border-radius: 15px;
 }
+.primary{
+    border-radius: 100px;
+    color: black;
+    background-color: #d3e97a;
+    border: none;
+    font-size: 16px;
+    font-family: manrop;
+    font-weight: 700px;
+    padding: 15px;
+}
+.mainhading{
+    font-family: bebas neue;
+    font-size: 100px;
+    margin-bottom: 24px;
+}
+.discription{
+    color: #C7C7C7;
+    font-size: 18px;
+    font-family: manrope;
+}
+.iconsoratehobe{
+    margin-left: 15px;
+    /*color:#0A0A0A;*/
+}
+.iconoflink{
+    padding: 15px;
+    background-color:#222222 ;
+    border-radius: 100px;
+    color: #d3e97a;
+    text-align: center;
+    margin-left: 15px;
+}
+.borohou{
+    height: 25px;
+    width: 25px;
+}
+hr{
+    color: #484848;
+
+}
+.project{
+    height: 600px;
+    width: 700px;
+}
+
 
