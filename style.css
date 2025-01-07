@@ -1,99 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
-*{
-    color: white;
-    font-family: "Bebas Neue","Manrope" serif;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+* {
+    /* color: white; */
+    font-family: "Manrope";
 }
-nav{
-    margin: 24px 60px;
+
+body {
+    background-color: #0A0A0A;
+}
+
+nav {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
+    justify-content: space-between;
     padding: 25px 60px;
 }
-body{
-    background-color: #0A0A0A;
-    color: #C7C7C7;
-}
 
-.titlename{
-    font-family: Bebas Neue;
-font-size: 32px;
-color: #C7C7C7;
-}
-
-ul{ 
-display: flex;
-
-}
-ul li{
+ul {
+    display: flex;
     list-style: none;
-    margin-right: 30px;
+
+
 }
-ul li a{
-    font-family:Manrope;
+
+ul li a {
     text-decoration: none;
+    margin-right: 32px;
     color: #C7C7C7;
     font-size: 16px;
 }
-.head1{
-    
+
+.titleName {
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    color: #C7C7C7;
+}
+
+.headerSection {
     display: flex;
+    padding: 30px 100px 80px;
     align-items: center;
-    margin: 30px 100px 80px;
     justify-content: space-between;
 }
-h1{
-    font-family: Bebas Neue;
 
+.mainHeading {
+    font-family: "Bebas Neue";
+    font-size: 101px;
+    /* margin-bottom: -20px; */
+    margin-bottom: 0px;
+    color: white;
+}
 
+.ProPic {
+    border-radius: 16px;
 }
-.propic{
-    border-radius: 15px;
-}
-.primary{
-    border-radius: 100px;
-    color: black;
-    background-color: #d3e97a;
-    border: none;
-    font-size: 16px;
-    font-family: manrop;
-    font-weight: 700px;
-    padding: 15px;
-}
-.mainhading{
-    font-family: bebas neue;
-    font-size: 100px;
-    margin-bottom: 24px;
-}
-.discription{
+
+.discription {
     color: #C7C7C7;
     font-size: 18px;
-    font-family: manrope;
+    margin-top: 0px;
+    /* font-family: "Manrope"; */
 }
-.iconsoratehobe{
-    margin-left: 15px;
-    /*color:#0A0A0A;*/
-}
-.iconoflink{
-    padding: 15px;
-    background-color:#222222 ;
+
+.primary {
+    background-color: #D3E97A;
+    color: #0A0A0A;
+    font-size: 16px;
+    font-weight: 700;
     border-radius: 100px;
-    color: #d3e97a;
-    text-align: center;
+    padding: 15px;
+}
+
+.iconSorateHobe {
     margin-left: 15px;
-}
-.borohou{
-    height: 25px;
-    width: 25px;
-}
-hr{
-    color: #484848;
+    /* color: #0A0A0A; */
 
 }
-.project{
-    height: 600px;
-    width: 700px;
+
+.iconOfLink {
+    padding: 15px;
+    /* color: azure; */
+    text-align: center;
+    background-color: #222222;
+    border-radius: 50%;
+    color: #D3E97A;
+    margin-left: 15px;
+}
+
+.borohou {
+    height: 25px;
+    width: 25px;
+
+}
+
+hr {
+    color: #484848;
+}
+
+main {
+    
+}
+
+.project {
+    margin: 0px 100px 80px;
+    color: white;
+}
+
+.proWork {
+    display: flex;
+    margin-top: 80px;
+}
+
+.features {
+    font-size: 76px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Bebas neue";
+    margin-bottom: 0px;
+}
+
+.feturePic {
+    padding: 125px 57px;
+
+
+}
+
+.uthena {
+    padding-top: 26px;
+    padding-left: 16px;
+    margin: 0px;
+
+}
+
+.uthena span {
+    background-color: #0A0A0A;
+    padding: 8px 16px;
+    border-radius: 25px;
+}
+
+.proyjon {
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    margin-right: 50px;
+}
+
+.proText {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;  */
+    padding: 60px 0px;
+}
+.PortfolioText{
+    font-size: 32px;
+    font-weight: 500;
+}
+.PorInfo{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.dureSoreJau{
+    display: flex;
+    justify-content: space-between;
+}
+.aktaankor{
+    color: #D3E97A;
+    margin-right: 24px;
+}
+.AboutMe{
+    display: flex;
+}
+.Abotdiv1{
+    width: 40%;
+}
+.Abotdiv2{
+    width: 60%;
+}
+.lets{
+    display:flex ;
+}
+.lets div{
+    width: 50%;
+}
+form input,textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    background-color: #484848;
+    border: none;
+}
+.hide{
+    display: none;
+}
+@media only screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 15px;
+            }
+
+.headerSection{
+    flex-direction: column;
+    padding: 80px 15px 80px;
+}
 }
 
 
